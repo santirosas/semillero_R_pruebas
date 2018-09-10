@@ -1,0 +1,73 @@
+---
+title: "elementos basicos de rmarkdown"
+author: "yo"
+date: "September 10, 2018"
+output:
+ html_document:
+    toc: true
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#### lenguaje yaml(la meta informacion,knitr biblioteca de r,echo-pintar codigos,mostrar codigos)
+
+#titulo principal (titulo 1 con #)"que es estadistica?"
+
+
+Ciencia que utiliza conjuntos de datos numéricos para obtener, a partir de ellos, inferencias basadas en el cálculo de probabilidades.
+
+##titulo dos (subtitulo) 
+
+asdfghjkqwertyuiop....
+
+###titulo 3 (con ###)
+
+en cabezado tipo 3
+
+#vi;etas
+
+vi;etas en rmarckdaown.....con operadores + - o *.
+
+ - veneta1
+    - sub1
+        - subsbu1.1
+   + sub2
+   * sub3
+ + vineta2
+ * vineta3
+ 
+# insertar imagen
+
+![](download.jpg)
+
+
+<center>
+![](download.jpg)
+<\center>
+
+#hipervinculo
+
+ - https://github.com/santirosas/semillero_R_pruebas
+ + [click aqui para abrir](https://github.com/santirosas/semillero_R_pruebas)
+ 
+ 
+# opciones de texto
+
+*cursiva*
+
+**negrilla**
+
+***cursiva y negrilla***
+
+# grafico con R
+
+
+```{r}
+plot(iris)
+```
+
+
+ 
+ 
